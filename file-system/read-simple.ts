@@ -5,7 +5,7 @@
 
 import fs = require('fs');
 
-fs.readFile('target.txt', function(err: Error, data: Buffer) {
+fs.readFile('target.txt', (err: Error, data: Buffer) => {
   if (err) {
     throw err;
   }
