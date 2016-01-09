@@ -11,3 +11,7 @@ typings/
 
 # Editor backup files
 *~
+
+# JetBrains workspace files
+.idea/workspace.xml
+.idea/tasks.xml
